@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "tsc",
-    "test": "mocha dist/**/*.spec.test"
+    "test": "mocha \"dist/**/*.spec.js\""
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "@types/chai": "^3.4.34",
     "@types/mocha": "^2.2.33",
     "chai": "^3.5.0",
+    "mocha": "^3.2.0",
     "sinon": "^1.17.6",
     "sinon-as-promised": "^4.0.2",
     "typescript": "^2.1.4"

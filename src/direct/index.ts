@@ -1,7 +1,7 @@
 import { Role, RoleParams, HasCap, ConditionalCap } from 'rhebok';
 
 // A conditional check we'll use to see if the context user is the owner of an event
-const isOwnerOfEvent = async (context: EventRoleContext) => {
+const isOwnerOfEvent = async (context: any) => {
 
   return context.userId === context.eventOwnerId;
 

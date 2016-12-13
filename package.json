@@ -1,0 +1,20 @@
+{
+  "name": "rhebok-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "mocha dist/**/*.spec.test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.33",
+    "chai": "^3.5.0",
+    "sinon": "^1.17.6",
+    "sinon-as-promised": "^4.0.2",
+    "typescript": "^2.1.4"
+  }
+}
